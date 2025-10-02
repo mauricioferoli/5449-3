@@ -49,6 +49,6 @@ git pull
 git remote -v
 git remote add origin <URl>
 git push origin master
-git push set --upstream
+git push --set-upstream
 
 NT: descarga los cambios, luego crea un repositorio para html y logica 2. contrastar info entre local y online
