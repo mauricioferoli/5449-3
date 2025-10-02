@@ -1,0 +1,45 @@
+GIT Bash comandos
+
+nano
+cd
+mkdir
+dir
+cd ..
+touch
+git init
+git status
+.gtiignore
+add
+git rm --cached
+git add .
+git rm --cached . -r
+git commit
+git config --global user.name
+git config --global user.email
+git config --local user.name
+git config --local user.email
+
+commit:
+	i (escribir)
+	esc + : + wq + enter (guardar)
+
+git commit -a -m "mensaje"
+git commit --amend -m "mensaje" (para cambiar mensaje)
+git restore
+git diff
+git log
+gitk
+git log -n 3 (para ver ultimas 3 confirmaciones)
+git restore
+git mv nombre.del.archivo carpeta.destino/nombre.nuevo.archivo
+
+	ej: git mv main.css css/main.css (mismo nombre)
+	    git mv main.css css/m.css (cambio de nombre)
+
+git rm (eliminar)
+use "git restore --staged <file>..." to unstage	
+git checkout HEAD~1
+git checkout master
+git checkout (+ codigo de la confirmacion)
+git reset --soft (+ nombre de la confirmacion) (no elimina cambios)
+git reset --hard (elimina confrimacion y cambios)

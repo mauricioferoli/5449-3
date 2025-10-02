@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clase4.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Practicas de la clase 4</h1>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h3>Registro de Usuarios</h3>
+                <form action="">
+                    <!--Este formulario puede mejorarse usando tablas (vease ejmplo de la clase)-->
+                    Nombre Completo
+                    <input type="text" name="nombre" id="nombre">
+                    <label><br>
+                        Correo elctronico
+                        <input type="email" name="correo">
+                    </label><br>
+                    <label>
+                        Sexo
+                        <label>
+                            <input type="radio" value="1" name="sexo" id="">Masculino
+                        </label>
+                        <label>
+                            <input type="radio" value="2" name="sexo" id="">Femenino
+                        </label><br>
+                    </label>
+                    <label>
+                        Disponibilidad
+                        <select name="" id="">
+                            <option>Mañana</option>
+                            <option>Tarde</option>
+                            <option>Noche</option>
+                            <option>Todo el dia</option>
+                        </select>
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="condiciones">
+                        Acepta las condiciones del servicio
+                    </label><br>
+                    <button>Registrar</button>
+                </form>
+            </article>
+        </section>
+        <section>
+            <h2>Formularios</h2>
+            <article>
+                <h3>Busquedas de Google</h3>
+                <!--El metodo de envio por defecto es "get"-->
+                <!--Puede usarse target="blank" en los formularios-->
+                <form action="https://google.com/search">
+                    <input placeholder="Escriba lo que desea buscar" type="text" name="q" id="">
+                </form>
+                <article>
+                    <h3>Inicio de sesion</h3>
+                    <form autocomplete="off" action="https//:cadif1.com/session">
+                        <label for="usuario">Usuario</label>
+                        <br>
+                        <input name="usuario" placeholder="Usuario" type="text" name="usuario" id="usuario">
+                        <br>
+                        <label for="contraseña">Contraseña</label>
+                        <br>
+                        <input placeholder="Contraseña" type="password" name="contraseña" id="contraseña">
+                        <br>
+                        <input type="checkbox" name="sesion" id="sesion">
+                        <label for="sesion">Mantener la sesion iniciada</label>
+                        <input class="botones" type="submit" value="Enviar">
+                        <input class="botones" type="reset" value="Borrar">
+                    </form>
+                </article>
+            </article>
+        </section>
+        <section>
+            <h2>Practica de Tablas</h2>
+            <p>Las tablas permiten organizar el contenido en filas y columnas</p>
+            <table border="1" width="800">
+                <thead>
+                    <tr>
+                        <th> </th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miercoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                        <th>Sabado</th>
+                        <th>Domingo</th>
+                    </tr>
+                <tbody>
+                    <tr>
+                        <td>Libre</td>
+                        <td>Curso de Logica</td>
+                        <td>Libre</td>
+                        <td class="importante">Curso de HTML</td>
+                        <td>Trabajo</td>
+                        <td>Trabajo</td>
+                        <td>Libre</td>
+                        <td>Libre</td>
+                    </tr>
+                    <tr>
+                        <td>Tardes</td>
+                        <td>libre</td>
+                        <td>Libre</td>
+                        <td>libre</td>
+                        <td>Libre</td>
+                        <td>Libre</td>
+                        <td>Libre</td>
+                        <td>Libre</td>
+                    </tr>
+                    <tr>
+                        <td>Noches</td>
+                        <td>Libre</td>
+                        <td>Libre</td>
+                        <td>libre</td>
+                        <td>Libre</td>
+                        <td>Libre</td>
+                        <td>Libre</td>
+                        <td>Libre</td>
+                    </tr>
+                    <tr>
+                        <td colspan="8">&nbsp;</td>
+                    </tr>
+        </section>
+        </tbody>
+        </thead>
+        </table>
+    </main>
+</body>
+
+</html>

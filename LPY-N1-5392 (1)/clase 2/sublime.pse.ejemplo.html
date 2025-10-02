@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<TITLE></TITLE>
+	</HEAD>
+	<BODY onload="sin_titulo();">
+		<SCRIPT type="text/javascript">
+			//Este codigo ha sido generado por el modulo psexport 20230904-w32 de PSeInt.
+			//Es posible que el codigo generado no sea completamente correcto. Si encuentra
+			//errores por favor reportelos en el foro (http://pseint.sourceforge.net).
+
+			// Para poder ejecutar correctamente este ejemplo debe tener
+			// habilitada la sintaxis flexible en su perfil de lenguaje
+			function sin_titulo() {
+				var i;
+				// declara un arreglo de 10 elementos
+				var a = new Array(10);
+				// recorre los 10 elementos y va asignandoles enteros aleatorios
+				for (var aux_index_0=0; aux_index_0<a.length; ++aux_index_0) {
+					// a[aux_index_0] toma el contenido de cada posicion del arreglo
+					// y si se modifica a[aux_index_0] se modifica el arreglo
+					a[aux_index_0] = Math.floor(Math.random()*100);
+				}
+				document.write("Los elementos del arreglo son:", '<BR/>');
+				// recorre los 10 elementos utilizando subindices y los muestra en pantalla
+				for (i=1; i<=10; ++i) {
+					document.write("Posición ", i, ": ", a[i-1], '<BR/>');
+				}
+				document.write("", '<BR/>');
+				// deja una linea en blanco
+				document.write("En orden inverso:", '<BR/>');
+				// recorre los 10 elementos en orden inverso y los muestra en una misma linea
+				for (i=10; i>=1; --i) {
+					document.write(a[i-1], " ");
+				}
+			}
+			
+		</SCRIPT>
+	</BODY>
+</HTML>
