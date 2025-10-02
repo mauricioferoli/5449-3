@@ -27,11 +27,11 @@ git commit -a -m "mensaje"
 git commit --amend -m "mensaje" (para cambiar mensaje)
 git restore
 git diff
-git log
+git log (q para cerrar)
 gitk
 git log -n 3 (para ver ultimas 3 confirmaciones)
 git restore
-git mv nombre.del.archivo carpeta.destino/nombre.nuevo.archivo
+git mv <file> <folder/file new name> (mover y cambiar nombre)
 
 	ej: git mv main.css css/main.css (mismo nombre)
 	    git mv main.css css/m.css (cambio de nombre)
@@ -42,4 +42,13 @@ git checkout HEAD~1
 git checkout master
 git checkout (+ codigo de la confirmacion)
 git reset --soft (+ nombre de la confirmacion) (no elimina cambios)
-git reset --hard (elimina confrimacion y cambios)
+git reset --hard (elimina confirmacion y cambios)
+
+git clone
+git pull
+git remote -v
+git remote add origin <URl>
+git push origin master
+git push set --upstream
+
+NT: descarga los cambios, luego crea un repositorio para html y logica 2. contrastar info entre local y online
