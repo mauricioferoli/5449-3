@@ -1,0 +1,6 @@
+La clase 3 comprende las carpetas:
+
+	5449-3_GIT
+	5449-3_HTML
+	5449-3_LPY
+	5449-3_LPY2
